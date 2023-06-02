@@ -13,45 +13,66 @@
 
 
     header {
-      margin-top: 30px;
+      margin-top: 100px;
       margin-bottom: 100px;
     }
 
     section {
-      margin-top: 200px;
-      margin-bottom: 200px;
+      margin-top: 100px;
+      margin-bottom: 100px;
     }
-
-    #subtitle  {
-      margin-top: -35px;
+    
+    #logo  {
+      width: 150px;
+      margin:0px;
+    }
+    
+    #title  {
+      margin-top: 0px;
       margin-bottom: 0px;
     }
 
-
-    #logo  {
-      width: 40px;
-      float:left;
-      margin:12px;
+    #subtitle  {
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
 
     #himg  {
       width: 100%;
     }
+
+    .youtube {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }
+    .youtube iframe {
+      width: 100%;
+      height: 100%;
+    }
+
   </style>
 </head>
 <body>
   <header>
-    <img id="logo" src="images/murase.png">
-    <h1>murase</h1>
-    <p id="subtitle"><small>Simple and Fun Games</small></p>
+      <center>
+        <img id="logo" src="images/murase.png">
+        <h1 id="title"><big>murase</big></h1>
+        <p id="subtitle"><small>Simple and Fun Games</small></p>
+      </center>
   </header>
 
-<a class="twitter-timeline" data-height="300" href="https://twitter.com/mur_software?ref_src=twsrc%5Etfw">Tweets by mur_software</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
   <main>
+
     <section>
+        <a class="twitter-timeline" data-height="300" href="https://twitter.com/mur_software?ref_src=twsrc%5Etfw">Tweets by mur_software</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+
+    <section>
+
       <img id="himg" src="images/title.jpg">
-      <h2>Last Summer Iteration</h2>
+
+      <center><h2>Last Summer Iteration</h2></center>
+
       <p>
         Last Summer Iteration is a little scary Walking Simulator.
         You control a girl and you have to get home from school.<br>
@@ -62,13 +83,32 @@
         Please enjoy the story told only with images and environmental sounds.
       </p>
 
+      <center>
       <a href='https://play.google.com/store/apps/details?id=jp.gr.java_conf.mur.lastsummeriteration'><img alt='Get it on Google Play' width="160" src='https://play.google.com/intl/ja/badges/static/images/badges/en_badge_web_generic.png'/></a>
+      </center>
     </section>
 
+
     <section>
-      <img id="himg" src="images/title.jpg">
-      <h2>Last Summer</h2>
-      <p>ここに内容を入力</p>
+
+      <div class="youtube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8JbIOU3lQ88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <center><h2>Last Summer</h2></center>
+
+      <p>"Last Summer" is a Walking Horror Game.
+        Control the girl and go home. Dad is waiting for you.
+        It's already evening. Be careful as the road is dark.
+        Just go home ...
+        ... It was just that, but it was strange ...
+      </p>
+
+      <center>
+      <a href='https://play.google.com/store/apps/details?id=jp.gr.java_conf.mur.lastsummer'><img alt='Get it on Google Play' width="160" src='https://play.google.com/intl/ja/badges/static/images/badges/en_badge_web_generic.png'/></a>
+      <a href='https://apps.apple.com/us/app/last-summer/id1531726161'><img alt='Download on the App Store' width="140" src='images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
+      </center>
+
     </section>
 
   </main>
