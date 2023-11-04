@@ -1,7 +1,0 @@
-[preload  storage="./data/bgimage/黒.jpg"  ]
-[preload  storage="./data/bgimage/教室_天井.jpg"  ]
-[preload  storage="./data/bgimage/教室.jpg"  ]
-[preload  storage="./data/fgimage/chara/1/前_笑顔.png"  ]
-[preload  storage="./data/fgimage/chara/1/前_呆れる.png"  ]
-[preload  storage="./data/fgimage/chara/1/振返り_怒る.png"  ]
-[return]
