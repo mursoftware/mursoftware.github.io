@@ -5,7 +5,11 @@
 [bg  time="1000"  method="crossfade"  storage="黒.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [wait  time="3000"  ]
+<<<<<<< HEAD
 [playbgm  volume="50"  time="100"  loop="true"  storage="VSQ_MUSIC_0076_fancy.mp3"  fadein="false"  html5="false"  ]
+=======
+[playbgm  volume="100"  time="100"  loop="true"  storage="VSQ_MUSIC_0076_fancy.mp3"  fadein="false"  html5="false"  ]
+>>>>>>> 27db09e594e2ef1fccadcddb009da4c18064b0cb
 [wait  time="3000"  ]
 [tb_ptext_show  x="200"  y="324"  size="30"  color="0xffffff"  time="1000"  text="企画　murase"  face="serif,'游明朝'"  anim="false"  edge="undefined"  shadow="undefined"  ]
 [wait  time="2000"  ]

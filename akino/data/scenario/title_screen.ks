@@ -7,7 +7,11 @@
 *スタート
 
 [tb_ptext_show  x="509"  y="324"  size="20"  color="0xffffff"  time="0"  text="画面をクリックしてください"  anim="false"  face="serif,'游明朝'"  edge="undefined"  shadow="undefined"  ]
+<<<<<<< HEAD
 [playbgm  volume="20"  time="1000"  loop="true"  storage="VSQ_MUSIC_0076_fancy.mp3"  fadein="true"  ]
+=======
+[playbgm  volume="30"  time="1000"  loop="true"  storage="VSQ_MUSIC_0076_fancy.mp3"  fadein="true"  ]
+>>>>>>> 27db09e594e2ef1fccadcddb009da4c18064b0cb
 [tb_ptext_hide  time="0"  ]
 [mask  time="0"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]

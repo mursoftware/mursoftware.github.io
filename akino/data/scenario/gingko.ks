@@ -23,7 +23,11 @@
 [chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後.png"  ]
 [tb_start_text mode=1 ]
 見てよ、この背景グラフィック[p]
+<<<<<<< HEAD
 一見きれいな風景のようだけど[p]
+=======
+一見きれいな風景に見えるけど[p]
+>>>>>>> 27db09e594e2ef1fccadcddb009da4c18064b0cb
 なんか変でしょ？[p]
 [_tb_end_text]
 

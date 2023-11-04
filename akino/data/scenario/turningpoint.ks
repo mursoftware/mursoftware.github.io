@@ -68,9 +68,14 @@
 [chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後_無表情.png"  ]
 [tb_start_text mode=1 ]
 ・・・[p]
+<<<<<<< HEAD
 ・・・お願いだから、あたしの言うことを聞いて！・・・[p]
 ・・・お願い・・・[p]
 ・・・[p]
+=======
+・・・お願いだから、あたしの言うことを聞いて・・・[p]
+
+>>>>>>> 27db09e594e2ef1fccadcddb009da4c18064b0cb
 じゃあ　さよなら！[p]
 [_tb_end_text]
 
