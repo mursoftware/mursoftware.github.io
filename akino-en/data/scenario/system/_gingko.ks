@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/銀杏並木2.jpg"  ]
+[preload  storage="./data/fgimage/chara/1/振返り_怒る.png"  ]
+[preload  storage="./data/fgimage/chara/1/後.png"  ]
+[preload  storage="./data/fgimage/chara/1/後_無表情.png"  ]
+[return]

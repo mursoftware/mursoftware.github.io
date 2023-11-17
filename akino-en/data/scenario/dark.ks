@@ -1,0 +1,21 @@
+[_tb_system_call storage=system/_dark.ks]
+
+*スタート
+
+[bg  time="1000"  method="crossfade"  storage="黒.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[wait  time="3000"  ]
+[playse  volume="100"  time="5000"  buf="0"  storage="アスファルトの上を歩く2.mp3"  fadein="true"  loop="true"  ]
+[wait  time="10000"  ]
+[playse  volume="50"  time="5000"  buf="1"  storage="交差点.mp3"  fadein="true"  ]
+[playse  volume="100"  time="10000"  buf="3"  storage="夜の繁華街.mp3"  fadein="true"  ]
+[bg  time="10000"  method="crossfade"  storage="横断歩道.jpg"  ]
+[playse  volume="100"  time="5000"  buf="2"  storage="救急車サイレン1.mp3"  fadein="true"  ]
+[wait  time="5000"  ]
+[stopse  time="1000"  buf="0"  ]
+[stopse  time="1000"  buf="1"  ]
+[stopse  time="1000"  buf="2"  ]
+[stopse  time="1000"  buf="3"  ]
+[mask  time="0"  effect="fadeIn"  color="0x000000"  ]
+[wait  time="5000"  ]
+[jump  storage="classroom.ks"  target="*スタート"  ]
