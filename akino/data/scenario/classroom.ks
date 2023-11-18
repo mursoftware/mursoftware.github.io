@@ -38,6 +38,12 @@
 二人になっちゃったね・・・[p]
 ひさしぶりに、いっしょに帰ろっか？[p]
 ・・・[p]
+[_tb_end_text]
+
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_start_text mode=1 ]
+・・・[p]
 ・・・・・・[p]
 [_tb_end_text]
 
@@ -112,6 +118,7 @@
 最後まで進めて終わらせましょう[p]
 [_tb_end_text]
 
+[playbgm  volume="30"  time="1000"  loop="true"  storage="高校の教室.mp3"  fadein="true"  ]
 [chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/振返り_怒る.png"  ]
 [tb_start_text mode=1 ]
 ほら、行くわよ！さっさとしなさい！[p]

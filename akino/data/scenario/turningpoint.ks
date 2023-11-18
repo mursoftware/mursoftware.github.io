@@ -86,9 +86,9 @@
 [playse  volume="100"  time="1000"  buf="0"  storage="革靴で歩く_自分.mp3"  fadein="true"  loop="true"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [wait  time="8000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [stopse  time="1000"  buf="0"  ]
 [wait  time="3000"  ]
-[glink  color="black"  storage="turningpoint.ks"  size="20"  text="進む"  x="450"  y="300"  width="300"  target="*進む"  ]
 [glink  color="black"  storage="turningpoint.ks"  size="20"  text="戻る"  x="450"  y="400"  width="300"  target="*戻る"  ]
 [s  ]
 *進む

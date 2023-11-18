@@ -6,6 +6,7 @@
 [bg  time="1000"  method="crossfade"  storage="黒.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [tb_show_message_window  ]
+[delay  speed="30"  ]
 [tb_start_text mode=1 ]
 ・・・ねぇ！[p]
 ・・・ねぇってば！！[p]
@@ -41,9 +42,9 @@
 ・・・・・・[p]
 [_tb_end_text]
 
-[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/前_怒る.png"  ]
 [stopse  time="1000"  buf="0"  fadeout="true"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/前_怒る.png"  ]
 [tb_start_text mode=1 ]
 ・・・[p]
 ・・・・・・[p]
