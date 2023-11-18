@@ -6,7 +6,7 @@
 
 *スタート
 
-[tb_ptext_show  x="509"  y="324"  size="20"  color="0xffffff"  time="0"  text="Click on the screen"  anim="false"  face="serif,'游明朝'"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="509"  y="324"  size="20"  color="0xffffff"  time="0"  text="Click　on　the　screen"  anim="false"  face="serif,'游明朝'"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="20"  time="1000"  loop="true"  storage="VSQ_MUSIC_0076_fancy.mp3"  fadein="true"  ]
 [tb_ptext_hide  time="0"  ]
 [mask  time="0"  effect="fadeIn"  color="0x000000"  ]
