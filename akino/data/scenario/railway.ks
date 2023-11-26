@@ -8,7 +8,7 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="革靴で歩く_自分.mp3"  loop="true"  fadein="true"  ]
 [chara_show  name="AI"  time="1000"  wait="true"  storage="chara/1/後_無表情_暗.png"  width="354"  height="709"  left="795"  top="15"  reflect="false"  ]
 [wait  time="5000"  ]
-[playse  volume="50"  time="5000"  buf="0"  storage="電車.wav"  loop="true"  fadein="true"  ]
+[playse  volume="50"  time="5000"  buf="0"  storage="電車.mp3"  loop="true"  fadein="true"  ]
 [wait  time="5000"  ]
 [stopse  time="5000"  buf="0"  fadeout="true"  ]
 [wait  time="8000"  ]

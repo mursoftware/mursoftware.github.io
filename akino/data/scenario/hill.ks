@@ -61,8 +61,15 @@
 ・・・なんてね[p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
 [chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/右_眺める.png"  ]
+[tb_start_text mode=1 ]
+・・・[p]
+このゲームには＜セーブ機能＞がないんだけどさ・・・[p]
+・・・忘れたくないな・・・この景色と・・・[p]
+・・・[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
 [wait  time="5000"  ]
 [tb_show_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -73,7 +80,7 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-キス、でもしてみる？[p]
+キス、してみる？[p]
 ・・・[p]
 [_tb_end_text]
 

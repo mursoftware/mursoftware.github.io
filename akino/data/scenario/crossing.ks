@@ -5,7 +5,7 @@
 [playbgm  volume="50"  time="1000"  loop="true"  storage="VSQSE_0035_city_noise.mp3"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="踏切.jpg"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
-[playse  volume="10"  time="1000"  buf="0"  storage="踏切.wav"  loop="true"  fadein="true"  ]
+[playse  volume="10"  time="1000"  buf="0"  storage="踏切.mp3"  loop="true"  fadein="true"  ]
 [chara_show  name="AI"  time="1000"  wait="true"  storage="chara/1/右_眺める.png"  width="400"  height="800"  left="234"  top="-4"  reflect="false"  ]
 [wait  time="5000"  ]
 [tb_show_message_window  ]
@@ -42,7 +42,7 @@
 
 [tb_hide_message_window  ]
 [wait  time="5000"  ]
-[playse  volume="100"  time="3000"  buf="1"  storage="電車.wav"  fadein="true"  loop="true"  ]
+[playse  volume="100"  time="3000"  buf="1"  storage="電車.mp3"  fadein="true"  loop="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 ねぇ・・・[p]

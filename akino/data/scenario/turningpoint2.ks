@@ -1,0 +1,118 @@
+[_tb_system_call storage=system/_turningpoint2.ks]
+
+*スタート
+
+[playbgm  volume="50"  time="1000"  loop="true"  storage="VSQSE_1121_mountain_02.mp3"  fadein="true"  ]
+[bg  time="1000"  method="crossfade"  storage="夕焼け.jpg"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="革靴で歩く_自分.mp3"  loop="true"  fadein="true"  ]
+[chara_show  name="AI"  time="1000"  wait="true"  storage="chara/1/後_無表情_暗.png"  width="332"  height="665"  left="460"  top="52"  reflect="false"  ]
+[wait  time="10000"  ]
+[stopbgm  time="3000"  fadeout="true"  ]
+[bg  time="3000"  method="crossfade"  storage="黒.jpg"  ]
+[stopse  time="1000"  buf="0"  ]
+[wait  time="3000"  ]
+[tb_show_message_window  ]
+[stopse  time="1000"  buf="0"  ]
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後_無表情.png"  ]
+[tb_start_text mode=1 ]
+ねぇ[p]
+もし、過去をやりなおせるとしたら、どうする？[p]
+[_tb_end_text]
+
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="わからない・・・"  target="*わからない"  x="450"  y="300"  width="300"  ]
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="キミをたすけたい！"  target="*たすけたい"  x="450"  y="400"  width="300"  ]
+[s  ]
+*わからない
+
+[tb_start_text mode=1 ]
+・・・[p]
+あたしは・・・[p]
+・・・[p]
+あたしも、わからない、どうしたらいいのか・・・[p]
+・・・[p]
+・・・[p]
+・・・[p]
+[_tb_end_text]
+
+[jump  storage="turningpoint2.ks"  target="*分岐終了"  ]
+*たすけたい
+
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/振返り_怒る.png"  ]
+[tb_start_text mode=1 ]
+はあ！？[p]
+何言ってんの？[p]
+ヒーローにでもなったつもり？[p]
+[_tb_end_text]
+
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後_無表情.png"  ]
+[tb_start_text mode=1 ]
+・・・[p]
+でも・・・[p]
+ありがとね・・・[p]
+・・・[p]
+・・・[p]
+・・・[p]
+[_tb_end_text]
+
+*分岐終了
+
+[playbgm  volume="80"  time="1000"  loop="true"  storage="VSQSE_0035_city_noise.mp3"  fadein="true"  ]
+[bg  time="1000"  method="crossfade"  storage="交差点.jpg"  ]
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/振返り_笑顔.png"  ]
+[tb_start_text mode=1 ]
+ここでお別れね[p]
+・・・[p]
+あたしは＜左＞、あんたは＜右＞・・・だね[p]
+[_tb_end_text]
+
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="逆だよ"  target="*逆"  x="450"  y="300"  width="300"  ]
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="いっしょに行こう"  target="*逆"  x="450"  y="400"  width="300"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[s  ]
+*逆
+
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後_無表情.png"  ]
+[tb_start_text mode=1 ]
+・・・だめだよ・・・[p]
+[_tb_end_text]
+
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="でも・・・"  target="*左"  x="450"  y="300"  width="300"  ]
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="逆だって！"  target="*左"  x="450"  y="400"  width="300"  ]
+[s  ]
+*左
+
+[chara_mod  name="AI"  time="600"  cross="true"  storage="chara/1/後_無表情.png"  ]
+[tb_start_text mode=1 ]
+・・・[p]
+・・・お願いだから、あたしの言うことを聞いて・・・[p]
+・・・お願い・・・[p]
+・・・[p]
+じゃあ　さよなら！[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="アスファルトの上を歩く2.mp3"  ]
+[chara_hide  name="AI"  time="1000"  wait="true"  pos_mode="true"  ]
+[stopse  time="3000"  buf="0"  fadeout="true"  ]
+[wait  time="5000"  ]
+[stopbgm  time="3000"  fadeout="true"  ]
+[mask  time="3000"  effect="fadeIn"  color="0x000000"  ]
+[bg  time="1000"  method="crossfade"  storage="住宅街2.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="VSQSE_0035_city_noise.mp3"  fadein="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="革靴で歩く_自分.mp3"  fadein="true"  loop="true"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[wait  time="8000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[stopse  time="1000"  buf="0"  ]
+[wait  time="2000"  ]
+[glink  color="black"  storage="turningpoint2.ks"  size="20"  text="あきのを助ける"  x="450"  y="400"  width="300"  target="*あきのを助ける"  ]
+[s  ]
+*あきのを助ける
+
+[playse  volume="200"  time="1000"  buf="0"  storage="アスファルトの上を歩く2.mp3"  ]
+[wait  time="3000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[mask  time="0"  effect="fadeIn"  color="0x000000"  ]
+[jump  storage="crash.ks"  target="*スタート"  ]
