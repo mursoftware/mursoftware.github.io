@@ -1,0 +1,5 @@
+[hidemenubutton] 
+[preload  storage="./data/bgimage/赤い灯台.jpg"  ]
+[preload  storage="./data/bgimage/赤い灯台b.jpg"  ]
+[preload  storage="./data/fgimage/default/赤い灯台.jpg"  ]
+[return] 
