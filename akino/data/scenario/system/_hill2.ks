@@ -1,5 +1,0 @@
-[preload  storage="./data/bgimage/黒.jpg"  ]
-[preload  storage="./data/bgimage/丘の上.jpg"  ]
-[preload  storage="./data/fgimage/chara/1/右_笑顔.png"  ]
-[preload  storage="./data/fgimage/chara/1/右_虚ろ.png"  ]
-[return]
