@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/s01_01.jpg"  ]
+[preload  storage="./data/bgimage/s01_02.jpg"  ]
+[preload  storage="./data/bgimage/s01_03.jpg"  ]
+[preload  storage="./data/bgimage/s01_04.jpg"  ]
+[preload  storage="./data/bgimage/s01_05.jpg"  ]
+[preload  storage="./data/bgimage/s04_00.jpg"  ]
+[return]
