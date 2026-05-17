@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/raod.jpg"  ]
+[preload  storage="./data/bgimage/black.jpg"  ]
+[preload  storage="./data/bgimage/torii.jpg"  ]
+[preload  storage="./data/bgimage/raod2.jpg"  ]
+[preload  storage="./data/fgimage/chara/1/haori02.png"  ]
+[preload  storage="./data/bgimage/moon.jpg"  ]
+[return]
